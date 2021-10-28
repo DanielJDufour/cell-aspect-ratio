@@ -1,0 +1,33 @@
+{
+  "name": "cell-aspect-ratio",
+  "version": "0.0.0",
+  "description": "Utility Functions for working with Cell Aspect Ratios.",
+  "main": "cell-aspect-ratio.js",
+  "scripts": {
+    "format": "npx prettier --arrow-parens=avoid --print-width=120 --trailing-comma=none --write *.js",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielJDufour/cell-aspect-ratio.git"
+  },
+  "keywords": [
+    "aspect",
+    "cells",
+    "grid",
+    "image",
+    "math",
+    "pixels",
+    "ratio",
+    "resize"
+  ],
+  "author": "Daniel J. Dufour",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/DanielJDufour/cell-aspect-ratio/issues"
+  },
+  "homepage": "https://github.com/DanielJDufour/cell-aspect-ratio#readme",
+  "devDependencies": {
+    "flug": "^2.1.0"
+  }
+}
